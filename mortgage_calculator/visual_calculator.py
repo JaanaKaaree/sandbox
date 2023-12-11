@@ -57,9 +57,15 @@ def get_calculated_dataframe(split_ratio,mortgage_amount,term):
 
 loan_terms = [ 'Select','Off Set','One Year','Two Year','Three Year','Four Year','Five Year','Variable']
 
+st.title(' 🎯 :blue[MORTGAGE CALCULATOR] 🎯')
 
-st.title('My Mortgage Calculator')
-
+with st.sidebar:
+    st.header('🎯 Mortgage Calculator 🎯', divider='blue')
+    st.markdown('Introducing our **Mortgage Calculator** tool — your key to informed home financing decisions! Input your loan details such as the loan amount and term period, and effortlessly visualize weekly, fortnightly and monthly payments')
+    st.subheader('Mortgage Split', divider='blue')
+    st.markdown('You can use this section to split your mortgage into different loan options offered by your financial provide. **Ensure** that your total split adds up to 100')
+    st.header('☕ Support Us ☕', divider='blue')
+    st.markdown('Love our Mortgage Calculator? Support our work by **[buying us a coffee](https://www.buymeacoffee.com/jaanakaaree)**. Your generosity fuels more financial tools for you')
 col1, col2 = st.columns(2)
 
 with col1:
