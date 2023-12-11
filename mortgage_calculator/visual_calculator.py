@@ -58,7 +58,7 @@ def get_calculated_dataframe(split_ratio,mortgage_amount,term):
 loan_terms = [ 'Select','Off Set','One Year','Two Year','Three Year','Four Year','Five Year','Variable']
 
 
-st.title('My Morgage Calculator')
+st.title('My Mortgage Calculator')
 
 col1, col2 = st.columns(2)
 
